@@ -3,7 +3,7 @@ import styles from "./component.module.css"
 export default function Sponsors() {
     return (
         <div className={styles.sectionContainer}>
-            <h1 className={styles.title}>2024 Sponsors</h1>
+            <h1 className={styles.title}>Sponsors</h1>
             <div className={styles.sponsorCall}>
                 <p>Interested in sponsoring QuHacks this year? <a href="mailto:info@quhacks.tech">Contact us!</a></p>
             </div>

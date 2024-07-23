@@ -45,11 +45,11 @@ export default function NavBar() {
   return (
     <main>
     <nav className={styles.navbar}>
-      <Link href='/' className={styles.name}><span>$</span>QuHacks 2025<span className={styles.cursor}>█</span></Link>
+      <Link href='/' className={styles.name}><span>$</span>QuHacks 2024<span className={styles.cursor}>█</span></Link>
 
       <button className={styles.moreBtn} onClick={toggleLinks}>[menu]</button>
       <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("#about",100)}>About</span>
-      {/* <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("#schedule",100)}>Schedule</span> */}
+      <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("#schedule",100)}>Schedule</span>
       <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("#faq",100)}>FAQ</span>
       <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("#team",100)}>Team</span>
       <Link className={`link ${styles.navlink}`} rel="noreferrer noopener" target='_blank' href="https://discord.gg/H2EteNDhEP">Discord</Link>
