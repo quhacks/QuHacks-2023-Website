@@ -7,7 +7,7 @@ import Footer from './components/footer/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'QuHacks 2024',
+  title: 'QuHacks 2025',
   description: "MD's largest annual student run hackathon!",
   metadataBase: new URL('https://quhacks.tech'),
 }
