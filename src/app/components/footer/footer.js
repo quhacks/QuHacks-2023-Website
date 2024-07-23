@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <main className={styles.container}>
         <div className={styles.col}>
-            <Link href="/" className={styles.sectionheader}>QuHacks 2024</Link>
+            <Link href="/" className={styles.sectionheader}>QuHacks 2025</Link>
             <a className={styles.navlink} href="mailto:info@quhacks.tech">Email</a>
             <a className={styles.navlink} rel="noreferrer noopener" target='_blank' href="https://discord.gg/H2EteNDhEP">Join our Discord!</a>
             <a className={styles.navlink} rel="noreferrer noopener" target='_blank' href="https://www.instagram.com/quhacks/">Instagram</a>
@@ -13,7 +13,7 @@ export default function Footer() {
         <div className={styles.col}>
             <h3 className={styles.sectionheader}>Site Links</h3>
             <Link className={styles.navlink} href='/#about'>About</Link>
-            <Link className={styles.navlink} href='/#schedule'>Schedule</Link>
+            {/* <Link className={styles.navlink} href='/#schedule'>Schedule</Link> */}
             <Link className={styles.navlink} href="/#faq">FAQ</Link>
         </div>
         <div className={styles.lastcol}>

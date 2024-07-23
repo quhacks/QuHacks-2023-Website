@@ -57,11 +57,12 @@ export default function Home() {
       <div className={styles.homecontainer}>
           <Image alt='QuHacks Logo' src="/logo.png" width={100} height={100} sizes='(max-width: 750px) 15rem, 20rem' className={styles.logo} />
           <div>
-            <span className={styles.title}>QuHacks 2024</span>
-            <p>December 16th @ Johns Hopkins APL (Building 201)</p>
-            <p>9 AM - 6 PM</p>
+            <span className={styles.title}>QuHacks 2025</span>
+            <p>Coming Soon</p>
+            {/* <p>9 AM - 6 PM</p> */}
             <div className={styles.btngroup}>
-              <button className='btn-primary' disabled={false} onClick={() => setShowRegisterModal(true)}>Register!</button>
+              {/* Logic for register: onClick={() => setShowRegisterModal(true)} */}
+              <button className='btn-primary' disabled={true}>Register!</button>
               <div className={styles.secondaryBtns}>
                 <button className={`btn-secondary ${styles.submitBtn}`} onClick={() => router.push("/submit")} disabled={!submbissionsOpen}>Submit Your Project!</button>
                 <button className={`btn-secondary ${styles.galleryBtn}`} onClick={() => router.push("/gallery")} disabled={!galleryOpen}>View Gallery &gt;</button>
@@ -72,9 +73,9 @@ export default function Home() {
       <div className={styles.content} id="about">
         <AboutSection></AboutSection>
       </div>
-      <div className={styles.content} id="schedule">
+      {/* <div className={styles.content} id="schedule">
         <ScheduleSection></ScheduleSection>
-      </div>
+      </div> */}
       <div className={styles.content} id="faq">
         <Faq></Faq>
       </div>
