@@ -7,7 +7,7 @@ export default function Footer() {
         <div className={styles.col}>
             <Link href="/" className={styles.sectionheader}>QuHacks 2025</Link>
             <a className={styles.navlink} href="mailto:info@quhacks.tech">Email</a>
-            <a className={styles.navlink} rel="noreferrer noopener" target='_blank' href="https://discord.gg/H2EteNDhEP">Join our Discord!</a>
+            <a className={styles.navlink} rel="noreferrer noopener" target='_blank' href="https://discord.gg/qYND4HeAdH">Join our Discord!</a>
             <a className={styles.navlink} rel="noreferrer noopener" target='_blank' href="https://www.instagram.com/quhacks/">Instagram</a>
         </div>
         <div className={styles.col}>

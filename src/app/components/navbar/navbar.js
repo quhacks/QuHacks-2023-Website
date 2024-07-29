@@ -52,7 +52,7 @@ export default function NavBar() {
       {/* <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("#schedule",100)}>Schedule</span> */}
       <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("#faq",100)}>FAQ</span>
       <span className={`link ${styles.navlink}`} onClick={() => scrollIntoViewWithOffset("#team",100)}>Team</span>
-      <Link className={`link ${styles.navlink}`} rel="noreferrer noopener" target='_blank' href="https://discord.gg/H2EteNDhEP">Discord</Link>
+      <Link className={`link ${styles.navlink}`} rel="noreferrer noopener" target='_blank' href="https://discord.gg/qYND4HeAdH">Discord</Link>
     </nav>
     {mobLinksShown ? 
     <div className={styles.mobileLinks}>
@@ -64,7 +64,7 @@ export default function NavBar() {
         <div className={styles.linkrow}><span className={`link ${styles.mobnavlink}`} onClick={() => moblink("#faq")}>./faq</span><div className={styles.spacer}></div><span className={styles.size}>{Math.round(Math.random()*100)} KB</span></div>
         <div className={styles.linkrow}><span className={`link ${styles.mobnavlink}`} onClick={() => moblink("#team")}>./team</span><div className={styles.spacer}></div><span className={styles.size}>{Math.round(Math.random()*100)} KB</span></div>
         <div className={styles.linkrow}><Link className={`${styles.mobnavlink}`} href="/timeline" onClick={hideLinks}>./timeline</Link><div className={styles.spacer}></div><span className={styles.size}>{Math.round(Math.random()*100)} KB</span></div>
-        <div className={styles.linkrow}><Link className={`${styles.mobnavlink}`} rel="noreferrer noopener" target='_blank' href="https://discord.gg/H2EteNDhEP" onClick={hideLinks}>./discord</Link><div className={styles.spacer} onClick={hideLinks}></div><span className={styles.size}>{Math.round(Math.random()*100)} KB</span></div>
+        <div className={styles.linkrow}><Link className={`${styles.mobnavlink}`} rel="noreferrer noopener" target='_blank' href="https://discord.gg/qYND4HeAdH" onClick={hideLinks}>./discord</Link><div className={styles.spacer} onClick={hideLinks}></div><span className={styles.size}>{Math.round(Math.random()*100)} KB</span></div>
       </div>
     </div>
     : ""}
