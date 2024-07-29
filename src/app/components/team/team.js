@@ -4,28 +4,24 @@ import Link from 'next/link';
 
 export default function TeamSection() {
     let teamCards = [
-        ["Aryan Sharma", "Director", "/headshots/aryan_headshot.jpg"],
-        ["Seonyoung Lee", "Director", "/headshots/seonyoung_headshot.jpg"],
+        ["Aryan Sharma", "Director", "/headshots/2025aryan_headshot.jpg"],
+        ["Victor Liu", "Director", "/headshots/2025victor_headshot.jpg"],
         
-        ["Ramy Kaddouri", "Website Team Lead", "/headshots/ramy_headshot.jpeg"],
-        ["Nicole Luo", "Website Dev", "/headshots/nicole_headshot.png"],
-        ["Sai Chandra", "Website Dev", "/headshots/sai_siddhish_headshot.png"],
-        ["Joel Chemmanur", "Website Dev", "/headshots/joel_headshot.jpg"],
+        ["Joshua Oh", "Graphic Design Lead", "/headshots/2025joshua_headshot.jpeg"],
+        ["Aditri Maiti", "Graphic Design", "/headshots/2025aditri_headshot.jpg"],
+        ["Anjali Vallabheneni", "Graphic Design", "/headshots/2025anjali_headshot.jpg"],
+        ["Jiwon Kim", "Graphic Design", "/headshots/2025jiwon_headshot.png"],
         
-        ["Caleb Shim", "Sponsor Team Lead", "/headshots/caleb_headshot.jpg"],
-        ["Akhil Shastry", "Sponsor Liaison", "/headshots/akhil_headshot.jpg"],
+        ["Kevin Yue", "Sponsor", "/headshots/2025kevin_headshot.png"],
+        ["Rana Cherukuri", "Sponsor", "/headshots/2025rana_headshot.png"],
+        ["Vinay Vimalkumar", "Sponsor", "/headshots/2025vinay_headshot.png"],
 
-        ["Jamie Lee", "Art Team Lead", "/headshots/jamie_headshot.jpg"],
-        ["Joshua Oh", "Graphic Designer", "/headshots/joshua_headshot.jpg"],
+        ["Sai Chandra", "Website Lead", "/headshots/2025sai_headshot.jpg"],
+        ["Mark Shi", "Website", "/headshots/2025mark_headshot.jpg"],
 
-        ["Ishani Ghosh", "Outreach Team Lead", "/headshots/ishani_headshot.png"],
-        ["Gordon Mei", "Outreach Team", "/headshots/gordon_headshot.png"],
-        ["Luis Valerio", "Outreach Team", "/headshots/luis_headshot.png"],
-
-
-        ["Jaden  Li", "Workshop Team Lead", "/headshots/jaden_headshot.jpg"],
-        ["Victor Liu", "Workshop Creator", "/headshots/victor_headshot.jpg"],
-        ["Neeraj Pawar", "Workshop Creator", "/headshots/neeraj_headshot.jpg"],
+        ["Jaden Li", "Workshop Lead", "/headshots/2025jaden_headshot.jpg"],
+        ["Suhas Anumolu", "Workshop", "/headshots/2025suhas_headshot.jpg"],
+        ["Zak Mazerski", "Workshop", "/headshots/2025zak_headshot.jpg"],
     ]
 
     teamCards = teamCards.map((card) => {
