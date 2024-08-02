@@ -9,7 +9,7 @@ export default function TeamSection() {
         
         ["Joshua Oh", "Graphic Design Lead", "/headshots/2025joshua_headshot.jpeg"],
         ["Aditri Maiti", "Graphic Design", "/headshots/2025aditri_headshot.jpg"],
-        ["Anjali Vallabheneni", "Graphic Design", "/headshots/2025anjali_headshot.jpg"],
+        ["Anjali Vallabhaneni", "Graphic Design", "/headshots/2025anjali_headshot.jpg"],
         ["Jiwon Kim", "Graphic Design", "/headshots/2025jiwon_headshot.png"],
         
         ["Kevin Yue", "Sponsor", "/headshots/2025kevin_headshot.png"],
